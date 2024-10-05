@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
+
+.containar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+#first {
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black;
+    /* margin-right: 141px; */
+    transform: translateX(-500px);
+    transition: 1.5s ease-in-out;
+}
+
+#second {
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    /* margin-left: 260px; */
+    transform: translateX(-500px);
+    transition: 1.5s ease-in-out;
+}
+
+#third {
+    background-color: indianred;
+    border: 10px solid black;
+    /* margin-right: 135px; */
+    transform: translateX(-500px);
+    transition: 1.5s ease-in-out;
+}
+
+.containar:hover #first{
+    transform: translateX(0px);
+}
+
+.containar:hover #second{
+    transform: translateX(200px);
+}
+
+.containar:hover #third{
+    transform: translateX(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span{
+    position: absolute;
+    font-size: 2.5rem;
+    color:#000;
+    opacity: 0.4;
+    right: 5px;
+}
